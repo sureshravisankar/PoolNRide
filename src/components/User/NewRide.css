@@ -1,0 +1,68 @@
+/* .NewRideForm-container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px 40px 20px 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 106px 42px rgba(0, 0, 0, 0.01),
+      0px 59px 36px rgba(0, 0, 0, 0.05), 0px 26px 26px rgba(0, 0, 0, 0.09),
+      0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+    font-family: "Inter", sans-serif;
+} */
+
+
+.NewRideForm-container {
+    background-color: white;
+    border-radius: 30px;
+    padding: 3%;
+    overflow: auto;
+}
+
+.NewFormHeading {
+    margin: 2vh 1vh;
+}
+
+.NewRideForm {
+    display: grid;
+}
+
+.NewFormLabel {
+    margin: 3%;
+    padding: 1%;
+    align-items: center;
+}
+
+.NewFormTd {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.NewRideFormInput {
+    justify-content: end;
+    width: auto;
+    height: 40px;
+    margin: 3%;
+    padding: 0 2vh;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    filter: drop-shadow(0px 1px 0px #efefef)
+      drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  
+.NewRideFormInput:focus {
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 0px 2px #242424;
+}
+
+.submitButton {
+    margin-left: 1vh;
+    width: 10%;
+}

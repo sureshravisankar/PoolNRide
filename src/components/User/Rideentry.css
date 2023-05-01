@@ -1,0 +1,53 @@
+.RideEntry {
+    background-color: white;
+    width: 100%;
+    padding: 10vh;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+/* .RideEntryTable {
+    background-color: white;
+} */
+
+.RideEntryNameCalender {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    padding: 0 5vh;
+}
+
+.RideEntryName {
+    font-weight: bold;
+    padding-top: 5vh;
+}
+
+.RideEntryField {
+    padding: 5vh 0;
+}
+
+.RideEntryFieldUl {
+    padding: 0 5vh;
+}
+
+.RideEntryRow {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    padding: 0 5vh;
+}
+
+.RideEntryFieldNumber {
+    color: red;
+    padding-top: 5vh;
+}
+
+.RideEntryButtons {
+    display: grid;
+    width: 100%;
+    padding: 5vh;
+}
+
+/* .RideEntryRowTd {
+
+} */
