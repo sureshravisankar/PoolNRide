@@ -1,0 +1,6 @@
+.paymentTable {
+    background-color: white;
+    border-radius: 30px;
+    padding: 3%;
+    overflow: auto;
+}

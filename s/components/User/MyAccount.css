@@ -1,0 +1,63 @@
+.AccountDetails {
+    overflow: auto;
+    padding: 3%;
+}
+
+.AccountButton {
+    padding: 1vh;
+    height: 30px;
+}
+
+.AccountDetailsHeading {
+    margin: 2vh 1vh;
+}
+
+.AccountDetailsParaSpan {
+    margin: 2vh;
+}   
+
+.AccountDetailsPara {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.AcountDetailsCards {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    ;
+    gap: 10px;
+}
+
+.ViewPools {
+    overflow: auto;
+    padding: 3%;
+}
+
+
+.RideDetails {
+    width: 70%;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+.RideDetails h5 {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 70%;
+}
+
+.PersonalDetails {
+    justify-content: flex-end;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.PersonalDetails h5{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 70%;
+}

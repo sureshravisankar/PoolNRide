@@ -1,0 +1,19 @@
+.viewusers {
+    background-color: white;
+    border-radius: 30px;
+    padding: 3%;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    color: blueviolet;
+}
+
+.temp {
+    background-color: blue;
+    border-radius: 3px;
+}
+
+.hasVehicle {
+    color: green;
+}

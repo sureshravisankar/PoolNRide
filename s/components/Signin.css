@@ -1,0 +1,22 @@
+.Main {
+    background-color: white;
+}
+
+.LoginContainer {
+    border: 1px solid #ccc;
+    padding: 2%;
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+}
+  
+.LoginContainer h2 {
+    margin-top: 0;
+}
+
+.LoginContainer button {
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 20%;
+}
+  

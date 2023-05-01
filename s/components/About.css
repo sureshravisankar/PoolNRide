@@ -1,0 +1,16 @@
+.AboutPage {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 3%;
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.AboutPage p {
+    text-align: justify;
+}
+
+
